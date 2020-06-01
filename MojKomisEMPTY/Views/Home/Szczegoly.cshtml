@@ -1,0 +1,28 @@
+﻿@model Samochod
+
+
+
+<div>
+
+    <div class="col-md-6 col-6 col-lg-6 col-sm-6">
+        <div class="img-thumbnail">
+            <img src="@Model.MiniaturkaUrl" alt="">
+            <div class="caption-full>
+                <h3 class="pull-right">@Model.Cena.ToString("c")</h3>
+                <h3>
+                    @Model.Id - @Model.Marka - @Model.Marka - @Model.Model - @Model.RokProdukcji
+                </h3>
+                <h4>
+                    Przebieg : @Model.Przebieg
+                </h4>
+                <h4>
+                    Pojemność : @Model.Pojemnosc
+                </h4>
+                <h4>
+                    Moc : @Model.Moc
+                </h4>
+                <p>@Model.Opis</p>
+            </div>
+        </div>
+    </div>
+</div>

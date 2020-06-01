@@ -1,0 +1,43 @@
+﻿@using Microsoft.AspNetCore.Identity
+<!DOCTYPE html>
+
+@inject SignInManager<IdentityUser> SignInManager
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href="~/biblioteki/bootstrap-4.3.1/dist/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/content/site.css" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <form>
+        <button asp-controller="Home" asp-action="Index">Komisu Strona Główna</button>
+        <button asp-controller="Opinia" asp-action="Index">Opinia</button>
+        @if (SignInManager.IsSignedIn(User))
+        {
+             <button asp-controller="Account" asp-action="Logout">Logout</button>
+        }
+        else
+        {
+            <button asp-controller="Account" asp-action="Login">Login</button>
+            <button asp-controller="Account" asp-action="Register">Register</button>
+        }
+
+    </form>
+    @*<button asp-controller="Home" asp-action="Index" class="btn-bd-primary">KOMIS!!!!!!!!!!!!!!!!!!!</button>
+        <button asp-controller="Home" asp-action="Index" class="btn-bd-primary">KOMIS!!!!!!!!!!!!!!!!!!!</button>*@
+
+
+
+    <div class="container body-content">
+        <div class="row">
+            @RenderBody()
+        </div>
+
+    </div>
+</body>
+</html>

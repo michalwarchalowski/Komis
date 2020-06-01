@@ -1,0 +1,6 @@
+D:\c#\ASP NET CORE\MojKomisEMPTY\MojKomisEMPTY\obj\Debug\netcoreapp2.1\MojKomisEMPTY.csprojAssemblyReference.cache
+D:\c#\ASP NET CORE\MojKomisEMPTY\MojKomisEMPTY\obj\Debug\netcoreapp2.1\MojKomisEMPTY.csproj.CoreCompileInputs.cache
+D:\c#\ASP NET CORE\MojKomisEMPTY\MojKomisEMPTY\obj\Debug\netcoreapp2.1\MojKomisEMPTY.RazorAssemblyInfo.cache
+D:\c#\ASP NET CORE\MojKomisEMPTY\MojKomisEMPTY\obj\Debug\netcoreapp2.1\MojKomisEMPTY.RazorAssemblyInfo.cs
+D:\c#\ASP NET CORE\MojKomisEMPTY\MojKomisEMPTY\obj\Debug\netcoreapp2.1\MojKomisEMPTY.AssemblyInfoInputs.cache
+D:\c#\ASP NET CORE\MojKomisEMPTY\MojKomisEMPTY\obj\Debug\netcoreapp2.1\MojKomisEMPTY.AssemblyInfo.cs
